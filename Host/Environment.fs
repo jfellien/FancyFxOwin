@@ -52,5 +52,5 @@ type Environment() =
         base.OnStart()
 
     override this.OnStop() = 
-
+        this.Closing
         base.OnStop()
